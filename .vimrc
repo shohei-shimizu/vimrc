@@ -41,7 +41,9 @@ set foldcolumn=3       "左端に折りたたみ状態を表示する領域を�
 "autocmd BufWinLeave * mkview          " バッファを閉じるとき、自動で折りたたみ情報を保持
 "autocmd BufWinEnter * silent loadview " バッファを開くとき、自動で折りたたみ情報を復元
 " これは放っておくとどんどん増えるので、mkviewを覚えておくだけでいい。
-" configuration file is in ~/.vim/view/
+" 折り畳み情報のファイルは~/.vim/view/下に保存される。
+" この設定はmarkdownの折り畳みがg:markdown_foldingで可能と分かって必要無くなったのでまるっとカット。
+
 " helpを日本語に(vimdoc-jaを入れる必要があります)
 set helplang=ja,en
 
