@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/Users/show/Workspace'
+let g:netrw_dirhist_5='/Users/show/.vim/plugged/filetype'
+let g:netrw_dirhist_4='/Users/show/.vim/plugged/my-markdown'
+let g:netrw_dirhist_3='/Users/show/.vim/plugged/my-c/autoload'
+let g:netrw_dirhist_2='/Users/show/.vim/plugged/my-c'
+let g:netrw_dirhist_1='/Users/show/.vim/plugged'
+let g:netrw_dirhist_0='/Users/show/.vim/plugged/my-markdown/plugin'
+let g:netrw_dirhist_9='/Users/show/.vim/plugged/my-markdown'
+let g:netrw_dirhist_8='/Users/show/.vim/plugged'
+let g:netrw_dirhist_7='/Users/show/.vim'
