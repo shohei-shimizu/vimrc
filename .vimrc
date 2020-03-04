@@ -72,7 +72,15 @@ if exists('+termguicolors')
   let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
   set termguicolors
 endif
-colorscheme material-theme
+
+" OS別の設定
+if has('mac')
+    " mac用の設定
+    colorscheme material-theme
+else
+    " linux用の設定
+    colorscheme petrel
+endif
 
 " Load the other configuration file for vim. It is in directory that ~/.vim/config/
 " If you don't plase it at ~/.vim/config/, you have to make directory that plase and move files there.
