@@ -13,7 +13,10 @@ call plug#begin('~/.vim/plugged')
 
 " Multiple Plug commands can be written in a single line using | separators
 "Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
-Plug 'SirVer/ultisnips'
+
+if has('python3')
+    Plug 'SirVer/ultisnips'
+endif
 
 " On-demand loading
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
