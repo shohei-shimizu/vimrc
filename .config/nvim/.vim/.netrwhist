@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/Users/show/Documents'
+let g:netrw_dirhist_9='/Users/show/Workspace/Reference'
+let g:netrw_dirhist_8='/Users/show/Workspace'
+let g:netrw_dirhist_7='/Users/show/Workspace/Documents'
+let g:netrw_dirhist_6='/Users/show/Workspace'
+let g:netrw_dirhist_5='/Users/show/Workspace/.Ero'
+let g:netrw_dirhist_4='/Users/show/Workspace/.Ero/Torrent'
+let g:netrw_dirhist_3='/Users/show/Workspace/.Ero'
+let g:netrw_dirhist_2='/Users/show/Workspace/.Ero/Torrent'
+let g:netrw_dirhist_1='/Users/show/Workspace/.Ero'
